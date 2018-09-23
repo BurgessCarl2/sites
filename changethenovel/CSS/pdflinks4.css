@@ -1,0 +1,33 @@
+body {
+	width: 100%;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+  @font-face {
+    font-family: ‘Palatino Linotype’;
+    src: 
+    local(‘Palatino Linotype’), 
+    local(Palatino-Linotype),  		          
+    url(‘Fonts/Palatino Linotype.ttf’)
+    format(‘truetype’);  
+  }
+
+
+  p {
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+  }
+
+  p a {
+  	font-family: "Palatino Linotype";
+  	color: black;
+    font-size: 6em;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+

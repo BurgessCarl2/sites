@@ -1,0 +1,156 @@
+/*note: main changes for index.html responsiveness here: .cover and .container2 margin-left. Also: .latertext margin-right .
+-have also made changes to .aboutauthor for that page*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+	font-size: 1em;
+}
+
+  @font-face {
+    font-family: ‘Palatino Linotype’;
+    src: 
+    local(‘Palatino Linotype’), 
+    local(Palatino-Linotype),  		          
+    url(‘Fonts/Palatino Linotype.ttf’)
+    format(‘truetype’);  
+  }
+
+  .header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+  }
+
+  .header ul {
+    list-style-type: none;
+    margin-right: 3em;
+  }
+
+  .header ul li {
+    display: inline;
+    margin: 0 0.75em 0 .75em;
+  }
+
+  .header ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  /*This is for the div containing the cover and introductory text*/
+  .container1 {
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  }
+
+  /*This is for the div that holds the cover image*/
+  .cover {
+    display: flex;
+    width: 50%;
+    margin-left: 1px;
+  }
+
+  /*this is for sizing the image*/
+  .cover img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*This is for the div that holds the introductory text*/
+  .introtext {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  background-color: white; 
+  font-family: "Palatino Linotype";
+  margin: 5.5em 0 0 1em;
+  }
+
+  .container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	width: 100%;
+	font-family: "Palatino Linotype";
+  margin-top: 30px;
+  margin-left: 1px;
+  }
+
+  .titletext {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 4em;
+  }
+
+  .aftertitletext {
+  	padding: 3em 0 4em 0;
+  }
+
+  .aftertitletext2 {
+  	padding: 6em 0 0 0;
+  }
+
+  .middletext {
+    padding: 0 .70em 1.5em 0;
+  	font-size: .85em;
+  }
+
+  .latertext {
+  	padding: 1.25em 0 1.25em 0;
+  	text-align: left;
+    margin-right: 30px;
+  }
+
+  .latertext ul {
+    text-decoration-style: none;
+  }
+
+  .latertext ul li {
+    margin-left: 2em;
+  }
+
+  .endtext {
+  	text-align: left;
+  	line-height: 1.5em;
+  }
+
+  /*This is to bring "About the Author" into viewable area (not beneath the navbar on top)*/
+  .aboutauthortext {
+    text-align: left;
+    padding: 1em 0 1em 0;
+    margin-top: 60px;
+    margin-left: 3px;
+    font-size: 1em;
+    font-family: "Palatino Linotype";
+  }
+
+  /*This is for positioning/adjusting to the rest of the main page content*/
+  .aboutauthor {
+  	text-align: left;
+  	padding: 0 0 1em 0;
+    margin-left: 3px;
+    font-size: 1em;
+    font-family: "Palatino Linotype";
+  }
+
+  /*for positioning the text below the author image*/
+  .aboutauthor2 {
+    text-align: left;
+    padding: 1em 0 1em 0;
+    margin-left: 3px;
+    margin-top: -20px;
+    font-size: 1em;
+    font-family: "Palatino Linotype";
+  }
+

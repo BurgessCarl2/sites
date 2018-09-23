@@ -1,0 +1,126 @@
+body {
+	width: 100%;
+	font-size: 1em;
+  margin-top: -40em;
+}
+
+  @font-face {
+    font-family: ‘Palatino Linotype’;
+    src: 
+    local(‘Palatino Linotype’), 
+    local(Palatino-Linotype),  		          
+    url(‘Fonts/Palatino Linotype.ttf’)
+    format(‘truetype’);  
+}
+
+  .cover {
+    visibility: hidden;
+  }
+
+  .header {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header ul {
+    list-style-type: none;
+  }
+
+  .header ul li {
+    display: inline;
+  }
+
+  .header ul li a {
+    color: black;
+  }
+
+  .container {
+  margin-top: -4em;
+	width: 100%;
+	background-color: white; 
+	font-family: "Palatino Linotype";
+	text-align: center;
+  }
+
+  .titletext {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .aftertitletext {
+  	padding: 3em 0 4em 0;
+    text-align: center;
+  }
+
+  .aftertitletext2 {
+  	padding: 3em 0 1.5em 0;
+    text-align: center;
+  }
+
+  .middletext {
+    padding: 3em .70em 3em 0;
+  	font-size: .85em;
+    text-align: center;
+  }
+
+  .latertext {
+  	padding: 1.25em 1.5em 1.25em 0;
+  	text-align: left;
+  }
+  
+  .endtext {
+  	text-align: left;
+  	line-height: 1.5em;
+  }
+
+
+/*  This is to bring "About the Author" into viewable area (not beneath the navbar on top)   */
+  .aboutauthortext {
+    text-align: left;
+    padding: 1em 0 1em 0;
+    font-size: .85em;
+    margin-top: 60px;
+    margin-left: 0;
+    font-family: "Palatino Linotype";
+  }
+
+
+/*This is for positioning/adjusting the rest of the main page content   */
+  .aboutauthor {
+    text-align: left;
+    padding: 0 0 1em 0;
+    font-size: 1em;
+    margin-left: 0;
+    font-family: "Palatino Linotype";
+  }
+
+/*for positioning the text below the author image*/
+  .aboutauthor2 {
+    text-align: left;
+    padding: 1em 0 1em 0;
+    margin-left: 3px;
+    margin-top: -20px;
+    font-size: 1em;
+    font-family: "Palatino Linotype";
+  }
+
+/*for positioning the text below the author image*/
+  .aboutauthor2 {
+    text-align: left;
+    padding: 1em 0 1em 0;
+    margin-left: 16px;
+    margin-top: -20px;
+    font-size: 1em;
+    font-family: "Palatino Linotype";
+  }
+
+/*for formatting the link text (from when users go to the site through the links in the PDFs*/
+  .linktext p {
+    font-size: 4em;
+    font-family: "Palatino Linotype";
+    text-decoration: none;
+  }
